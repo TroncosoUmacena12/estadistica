@@ -1,5 +1,6 @@
 const WebSocket = require("ws");
-const server = new WebSocket.Server({ port: 8080 });
+//const server = new WebSocket.Server({ port: 8080 });
+const socket = new WebSocket("wss://juego-estadistica-server2.onrender.com");
 
 let clients = [];
 
